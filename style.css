@@ -3,8 +3,9 @@ ul {
   margin-top: 0;
   padding: 0;
   overflow: hidden;
-  background-color:lightgreen;
+  background-color: lightslategrey;
   background-size: cover;
+  display:flex;
 }
 
 li {
@@ -22,7 +23,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: lightcoral;
+  background-color: lightblue;
 }
 
 li.dropdown {
@@ -51,11 +52,14 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#shadow{
-  text-align: center;
-}
 body{
-  background: url(images/images.png);
-  background-repeat: no-repeat;
+  background-color: #f3f3f3;
   background-size: cover;
+}
+footer{
+  background-color: black;
+  background-size: cover;
+  color: beige;
+  text-align: center;
+  margin-bottom: 0%;
 }
