@@ -104,7 +104,7 @@ p{
 .card{
   text-align: center;
   background-color: cornsilk;
-  box-shadow: 5px 5px 5px lightcyan;
+  box-shadow:0 3px 6px 0 lightcyan, 0 6px 12px 0 lightcyan;
   width: 15%;
   height: 25%;
   border-radius: 5%;
@@ -114,6 +114,7 @@ p{
   margin-top: 5%;
   padding-bottom: 2%;
   display: block;
+  float: left;
 }
 
 .card img{
@@ -127,8 +128,8 @@ p{
   text-decoration: none;
   color: whitesmoke;
   font-weight: 700;
-  padding: 5px 10px;
-  border-radius: 5%;
+  padding: 5px 15px;
+  border-radius: 40%;
   background-image: linear-gradient(rgb(60, 47, 243),lightblue);
 }
 
