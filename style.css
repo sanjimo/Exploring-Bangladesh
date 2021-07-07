@@ -3,7 +3,7 @@ ul {
   margin-top: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightslategrey;
+  background-color: rgb(75, 151, 226);
   background-size: cover;
   display:flex;
 }
@@ -12,6 +12,9 @@ li {
   float: left;
   text-align:center;
   font-weight: bold;
+  font-size: 20px;
+  margin-left:8%;
+  margin-right:12%;
 }
 
 li a, .dropbtn {
@@ -53,13 +56,73 @@ li.dropdown {
   display: block;
 }
 body{
-  background-color: #f3f3f3;
+  /*background-image: linear-gradient(lightsteelblue,gainsboro);*/
   background-size: cover;
+  background-color: gainsboro;
 }
+
+.half-width{
+  width:50%;
+  padding-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.half-width img{
+  width:50%;
+}
+
+.highlight-red{
+  color: crimson;
+  font-weight: 900;
+}
+
+.highlight-green{
+  color: green;
+  font-weight: 900;
+}
+
+.card{
+  text-align: center;
+  background-color: cornsilk;
+  box-shadow: 5px 5px 5px 5px lightskyblue;
+  width: 15%;
+  height: 25%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+
+.card img{
+  border-radius: 5%;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.link-button{
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5%;
+  background-image: linear-gradient(rgb(60, 47, 243),lightblue);
+}
+
+.top-banner{
+
+}
+
+.flexible-container{
+  display: flex;
+}
+
 footer{
   background-color: black;
   background-size: cover;
   color: beige;
   text-align: center;
-  margin-bottom: 0%;
+  margin-top:20%;
 }
