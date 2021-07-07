@@ -55,10 +55,19 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 body{
-  /*background-image: linear-gradient(lightsteelblue,gainsboro);*/
+  background-image: linear-gradient(gainsboro,lavender);
   background-size: cover;
-  background-color: gainsboro;
+  margin:0%;
+}
+
+p{
+  font-weight: 500;
+  word-spacing: 5px;
+  line-height: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  display: justify;
 }
 
 .half-width{
@@ -81,6 +90,17 @@ body{
   font-weight: 900;
 }
 
+.banner{
+  background-image: linear-gradient(lightsteelblue,lavenderblush);
+  background-size: cover;
+  margin-top: -1.5%;
+}
+
+.top-banner{
+  background-image: linear-gradient(lavenderblush,lightsteelblue);
+  background-size: cover;
+}
+
 .card{
   text-align: center;
   background-color: cornsilk;
@@ -93,6 +113,7 @@ body{
   margin-right: 2%;
   margin-top: 5%;
   padding-bottom: 2%;
+  display: block;
 }
 
 .card img{
@@ -111,18 +132,13 @@ body{
   background-image: linear-gradient(rgb(60, 47, 243),lightblue);
 }
 
-.top-banner{
-
-}
-
 .flexible-container{
   display: flex;
 }
 
-footer{
+.footer-class{
   background-color: black;
-  background-size: cover;
   color: beige;
   text-align: center;
-  margin-top:20%;
+  padding-top: 1%;
 }
