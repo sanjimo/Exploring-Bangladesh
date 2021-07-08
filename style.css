@@ -59,7 +59,8 @@ li.dropdown {
 body{
   background-image: linear-gradient(gainsboro,lavender);
   background-size: cover;
-  margin:0%;
+  font-family: 'Poppins', sans-serif;
+  margin:0;
 }
 
 p{
@@ -133,6 +134,43 @@ p{
   background-image: linear-gradient(rgb(60, 47, 243),lightblue);
 }
 
+.dhaka-banner{
+  background-image: linear-gradient(lightsteelblue,lavenderblush);
+  background-size: cover;
+  margin-top: -1.5%;
+}
+
+.dhaka-card{
+  text-align: center;
+  background-color: cornsilk;
+  box-shadow:0 3px 6px 0 lightcyan, 0 6px 12px 0 lightcyan;
+  width: 20%;
+  height: 85%;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  display: block;
+  float: left;
+}
+
+.dhaka-card img{
+  border-radius: 5%;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.dhaka-article{
+  background-image: linear-gradient(lightsteelblue,lavenderblush);
+  background-size: cover;
+  margin-top: -1.5%;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  display: justify;
+}
+
 .flexible-container{
   display: flex;
 }
@@ -142,4 +180,5 @@ p{
   color: beige;
   text-align: center;
   padding-top: 1%;
+  font-weight: 700;
 }
