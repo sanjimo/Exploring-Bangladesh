@@ -81,6 +81,15 @@ p{
   width:50%;
 }
 
+#map-transition{
+  width:50%;
+  transition: width .1s ease;
+}
+
+#map-transition:hover{
+  width:400px;
+}
+
 .highlight-red{
   color: crimson;
   font-weight: 900;
@@ -116,6 +125,12 @@ p{
   padding-bottom: 2%;
   display: block;
   float: left;
+  transition: width .1s, height .1s;
+}
+
+.card:hover{
+  height: 200px;
+  width: 350px;
 }
 
 .card img{
